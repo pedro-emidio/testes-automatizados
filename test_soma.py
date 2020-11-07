@@ -17,12 +17,12 @@ class TestSoma(unittest.TestCase):
 
     def test_verifica_se_x_e_int_ou_float_retorna_assertionerror(self):
         with self.assertRaises(AssertionError):
-            soma('10', 5)
+            soma('10', 6)
 
 
     def test_verifica_se_y_e_int_ou_float_retorna_assertionerror(self):
         with self.assertRaises(AssertionError):
-            soma(10, '5')
+            soma(10, '6')
 
 
 if __name__ == '__main__':
